@@ -1,0 +1,51 @@
+0: dvc log                                                                                      ││
+1: dvc add data/data.csv                                                                        ││
+2: cls                                                                                          ││
+3: git  status                                                                                  ││
+4: git add .                                                                                    ││
+5: gt status    
+6: git status                                                                                   ││
+7: git commit -m "dvc added"                                                                    ││
+8: git push  -u origin                                                                          ││
+9: git add .                                                                                    ││
+10: git commit -m "dvc first version of data"                                                   ││
+11: dvc add data/data.csv                                                                       ││
+12: git add data/data.csv.dvc                                                                   ││
+13: git commit -m "dvc first version of data"                                                   ││
+14: dvc add data/data.csv   
+15: git add data/data.csv.dvc                                                                   ││
+16: git commit -m "dvc second version of data"                                                  ││
+17: dvc add data/data.csv                                                                       ││
+18: git add data/data.csv.dvc                                                                   ││
+19: git commit -m "dvc third version of data"                                                   ││
+20: dvc add data/data.csv                                                                       ││
+21: git add data/data.csv.dvc                                                                   ││
+22: git commit -m "dvc fourth version of data"                                                  ││
+23: git log  
+24: git checkout ffd24df                                                                        ││
+25: dvc checkout                                                                                ││
+26: dvc remote add -d remote_storage c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial       ││
+27: dvc push                                                                                    ││
+28: dvc remote add -d remote_storage c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestorage││
+29: dvc push                                                                                    ││
+30: dvc push myremotestorage                                                                    ││
+31: dvc remote add -d remote_storage2 c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestorage││
+32: dvc push 
+33: dvc add data/data.csv                                                                       ││
+34: git add data/data.csv.dvc                                                                   ││
+35: git commit -m "local storage created, first  version"                                       ││
+36: dvc push                                                                                    ││
+37: history                                                                                     ││
+38: ping example.txt | clip                                                                     ││
+39: "doskey /history"                                                                           ││
+40: dvc remote add -d remote_storage2 c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestorage││
+41: git add .    
+41: git add .                                                                                   ││
+42: git commit -m "final commit"                                                                ││
+43: git push -u origin                                                                          ││
+44: git add .                                                                                   ││
+45: git status                                                                                  ││
+46: dvc pull                                                                                    ││
+47: git log                                                                                     ││
+48: dvc remote add -d remote_storage2 c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestoragegit││
+49: dvc push 

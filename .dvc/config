@@ -1,0 +1,4 @@
+[core]
+    remote = remote_storage2
+['remote "remote_storage2"']
+    url = c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestoragegit
