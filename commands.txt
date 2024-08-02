@@ -49,3 +49,13 @@
 47: git log                                                                                     ││
 48: dvc remote add -d remote_storage2 c:/Users/praka/ineuron/MLops_foundation/dvc_tutorial/myremotestoragegit││
 49: dvc push 
+50: dvc repro                                                                              ││
+51: cls                                                                                    ││
+52: dvc repro                                                                              ││
+53: dvc dag                                                                                ││
+54: dvc repro                                                                              ││
+55: dvc dag                                                                                ││
+56: git add .                                                                              ││
+57: git status                                                                             ││
+58: git commit -m "final comit"                                                            ││
+59: git push -u origin  
